@@ -3,6 +3,10 @@ body {
     color:#fff;
 }
 
+a:hover {
+    cursor: pointer;
+}
+ 
 .notvine-logo {
     width:220px;
     height:auto;
@@ -25,6 +29,11 @@ body {
     color:#fff
 }
 
+.nav ul li a:hover {
+    color:grey;
+    cursor:pointer;
+}
+
 .title {
     text-align: center;
     padding-top:50px
@@ -37,6 +46,10 @@ body {
     color:#fff;
     border-color: #000;
     border-radius:0;
+}
+
+.start-button:hover {
+    color:grey;
 }
 
 .pic {

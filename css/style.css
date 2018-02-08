@@ -1,0 +1,103 @@
+body {
+    background-color:#1BBD90;
+    color:#fff;
+}
+
+.notvine-logo {
+    width:220px;
+    height:auto;
+    padding-top:10px
+}
+
+.nav ul {
+    float:right;
+    padding-top:50px;
+}
+
+.nav ul li {
+    display:inline-block;
+    color:#fff;
+    padding-left: 30px;
+    
+}
+
+.nav ul li a {
+    color:#fff
+}
+
+.title {
+    text-align: center;
+    padding-top:50px
+    
+}
+
+.start-button {
+    
+    background:#000;
+    color:#fff;
+    border-color: #000;
+    border-radius:0;
+}
+
+.pic {
+    text-align: center;
+    
+}
+
+#phone-pic {
+    height:500px;
+    margin:0 auto;
+    padding:50px 0px 80px 0px;
+    
+}
+
+.section-2 {
+    background-color:#fff;
+    padding-top:40px;
+    padding-bottom: 30px
+}
+
+.featured {
+    width:1000px;
+    margin:0 auto;
+}
+
+.section-3 {
+    background-color: #F9F9F9;
+}
+
+#burger {
+    width:50px;
+    float:right;
+    padding-top:38px;
+    padding-left:20px;
+}
+
+.up {
+    padding-bottom: 15px
+}
+
+footer {
+    background-color:#000;
+    padding-top:50px;
+    color:#fff;
+}
+
+#joma {
+    height:150px;
+}
+
+.center {
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+

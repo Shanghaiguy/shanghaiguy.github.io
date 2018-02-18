@@ -17,6 +17,14 @@ a:hover {
     padding-top:10px
 }
 
+@media (max-width: 348px) {
+    .notvine-logo {
+        width:150px;
+        height:auto;
+        padding-top:25px
+    }
+}
+
 .overlay {
 
 	position:absolute;
@@ -55,7 +63,7 @@ a:hover {
 
 .nav ul {
     float:right;
-    padding-top:50px;
+    padding-top:45px;
 }
 
 .nav ul li {
@@ -122,9 +130,23 @@ a:hover {
 #burger {
     width:50px;
     float:right;
-    padding-top:38px;
+    padding-top:32px;
     padding-left:20px;
     display: none;
+}
+
+.burger-2 {
+    display: none;
+}
+
+@media (max-width: 550px) {
+    .burger-2 {
+        display:inline;
+    }
+    
+    .burger-1 {
+        display: none;
+    }
 }
 
 @media (max-width: 750px) {

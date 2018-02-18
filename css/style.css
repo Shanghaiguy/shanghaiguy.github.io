@@ -3,6 +3,10 @@ body {
     color:#fff;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
     cursor: pointer;
 }
@@ -11,6 +15,42 @@ a:hover {
     width:220px;
     height:auto;
     padding-top:10px
+}
+
+.overlay {
+
+	position:absolute;
+	background-color: rgba(0,0,0,0.7);
+	height:100%;
+	width:100%;
+	z-index:999;
+	display:none;
+}
+
+.overlay-links {
+
+	list-style: none;
+	text-align: center;
+	margin-top:20vh;
+	
+}
+
+.overlay-links li a {
+
+	text-decoration: none;
+	color:#fff;
+	font-size: 200%;
+	font-weight:bold;
+}
+
+.menu-close {
+
+	height:40px;
+	padding-top:40px;
+	padding-right:7px;
+	width:auto;
+	float:right;
+	position:inline-block;
 }
 
 .nav ul {
@@ -84,6 +124,23 @@ a:hover {
     float:right;
     padding-top:38px;
     padding-left:20px;
+    display: none;
+}
+
+@media (max-width: 750px) {
+
+	#burger {
+
+		display:inherit;
+	}
+}
+
+@media (max-width: 750px) {
+
+	.main-nav {
+
+		display:none;
+	}
 }
 
 .up {

@@ -21,7 +21,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+    
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -32,22 +34,45 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- mobile menu -->
+      <div class="overlay">
+	  <div class="container">
+	  	<div class="row">
+	  		<a href="#"><img class="menu-close" src="close-icon.png"></a>
+	  	</div>
+	  	<div class="row">
+	  		<ul class="overlay-links">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+              <li>
+              <a href="https://jomaswag.com/">Merch</a>
+            </li>
+              <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+  		</div>
+	  </div>
+  </div>
+    
+    <!-- main menu -->
   <div class="container">
     <div class="row top">
       <div class="six columns logo">
           <a><img src="notvinelogo.png" class="notvine-logo"></a>
       </div>
        <div class="six columns nav">
-           <a><img id="burger" src="hamburger.png"></a>
-          <ul>
+           <a class="burger"><img id="burger" src="hamburger.png"></a>
+          <ul class="main-nav">
             <li>
-              <a>Home</a>
+              <a href="index.html">Home</a>
             </li>
               <li>
-              <a>Merch</a>
+              <a href="https://jomaswag.com/">Merch</a>
             </li>
               <li>
-              <a>Contact</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
            
@@ -107,8 +132,20 @@
     </div>
 </footer>
 
+<script type="text/javascript">
 
+	$(".burger").click(function(){
+
+	$(".overlay").show();
+})
+
+	$(".menu-close").click(function(){
+
+	$(".overlay").hide();
+});
     
+</script>
+
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

@@ -3,6 +3,10 @@ body {
     color:#fff;
 }
 
+h1 {
+    font-size: 60px;
+}
+
 a {
     text-decoration: none;
 }
